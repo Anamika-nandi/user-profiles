@@ -1,0 +1,83 @@
+.rootContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.profileContainer{
+    max-height: 320px !important;
+    width: 250px !important;
+    border: 1.5px solid #e5e5e5;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;  
+    margin: 5px 10px 10px 5px;
+}
+
+.pfImageContainer{
+    max-height: 150px !important;
+    width: 250px !important;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 40%;
+    box-sizing: border-box;
+}
+
+.pfImageContainer >img{
+    max-height: 150px !important;
+    max-width: 250px !important;
+}
+
+.pfDetailsSec{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 5px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.pfName{
+    line-height: 10px;
+    font-weight: 700;
+    color: #4e4e4e;  
+}
+
+.pfDetails{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #7a7a7a;
+    line-height: 10px;
+    margin: 5px;
+    padding: 0px;
+}
+.pfDetails > span{
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.pfDeleteSec{
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fffdfd;
+    padding: 0px;
+    margin: 0px;
+    border-top: 1.5px solid #e5e5e5;
+}
+.deleteItem{
+    flex-basis: 33%;
+    margin: 0px;
+    box-sizing: border-box;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
